@@ -25,6 +25,15 @@ public class dropDown {
 		
 		Select toPort=new Select(driver.findElement(By.name("toPort")));
 		toPort.selectByIndex(0);
-		driver.findElement(By.xpath("/html/body/div[3]/form/div/input")).click();		
+		driver.findElement(By.xpath("/html/body/div[3]/form/div/input")).click();	
+		
+		
+		driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr[2]/td[1]/input")).click();
+		driver.findElement(By.name("zipCode")).sendKeys("400074");
+		
+		driver.findElement(By.id("rememberMe")).click();
+/*		int x=400074;
+		String pin=String.valueOf(x);*/
+		driver.findElement(By.xpath("/html/body/div[2]/form/div[11]/div/input")).click();
 	}
 }
