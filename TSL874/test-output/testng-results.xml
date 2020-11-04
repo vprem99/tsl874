@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="1" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12384" started-at="2020-11-03T18:03:49 IST" finished-at="2020-11-03T18:04:02 IST">
+  <suite name="Default suite" duration-ms="29496" started-at="2020-11-04T09:51:20 IST" finished-at="2020-11-04T09:51:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12384" started-at="2020-11-03T18:03:49 IST" finished-at="2020-11-03T18:04:02 IST">
+    <test name="Default test" duration-ms="29496" started-at="2020-11-04T09:51:20 IST" finished-at="2020-11-04T09:51:50 IST">
       <class name="day5.FirstNG">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day5.FirstNG@14d3bc22]" name="beforeTest" is-config="true" duration-ms="6328" started-at="2020-11-03T18:03:49 IST" finished-at="2020-11-03T18:03:56 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day5.FirstNG@d706f19]" name="beforeTest" is-config="true" duration-ms="18004" started-at="2020-11-04T09:51:20 IST" finished-at="2020-11-04T09:51:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="bingTest()[pri:1, instance:day5.FirstNG@14d3bc22]" name="bingTest" duration-ms="1344" started-at="2020-11-03T18:03:56 IST" description="Verifying title of Bing.com" finished-at="2020-11-03T18:03:57 IST">
+        <test-method status="FAIL" signature="bingTest()[pri:1, instance:day5.FirstNG@d706f19]" name="bingTest" duration-ms="1254" started-at="2020-11-04T09:51:39 IST" description="Verifying title of Bing.com" finished-at="2020-11-04T09:51:40 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Title did not match expected [Bing India] but found [Bing]]]>
@@ -23,7 +23,7 @@ at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
-at day5.FirstNG.bingTest(FirstNG.java:22)
+at day5.FirstNG.bingTest(FirstNG.java:24)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -58,13 +58,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bingTest -->
-        <test-method status="SKIP" signature="appleSearchTest()[pri:2, instance:day5.FirstNG@14d3bc22]" name="appleSearchTest" duration-ms="0" started-at="2020-11-03T18:03:57 IST" description="Verifying search on Bing.com" depends-on-methods="day5.FirstNG.bingTest" finished-at="2020-11-03T18:03:57 IST">
+        <test-method status="SKIP" signature="appleSearchTest()[pri:2, instance:day5.FirstNG@d706f19]" name="appleSearchTest" duration-ms="0" started-at="2020-11-04T09:51:40 IST" description="Verifying search on Bing.com" depends-on-methods="day5.FirstNG.bingTest" finished-at="2020-11-04T09:51:40 IST">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method FirstNG.appleSearchTest()[pri:2, instance:day5.FirstNG@14d3bc22] depends on not successfully finished methods]]>
+              <![CDATA[Method FirstNG.appleSearchTest()[pri:2, instance:day5.FirstNG@d706f19] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method FirstNG.appleSearchTest()[pri:2, instance:day5.FirstNG@14d3bc22] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method FirstNG.appleSearchTest()[pri:2, instance:day5.FirstNG@d706f19] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -90,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appleSearchTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:day5.FirstNG@14d3bc22]" name="afterTest" is-config="true" duration-ms="4509" started-at="2020-11-03T18:03:57 IST" finished-at="2020-11-03T18:04:02 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:day5.FirstNG@d706f19]" name="afterTest" is-config="true" duration-ms="9901" started-at="2020-11-04T09:51:40 IST" finished-at="2020-11-04T09:51:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

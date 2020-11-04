@@ -8,11 +8,13 @@ import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
 public class FirstNG {
-	WebDriver driver; // Declare Variable at Class Level
+	WebDriver driver;	 
 
 	@Test(priority=1,description="Verifying title of Bing.com") // Test Script will be here
 	public void bingTest() {
@@ -32,7 +34,11 @@ public class FirstNG {
 
 	@BeforeTest // pre-conditions
 	public void beforeTest() {
-		driver = HelperFunctions.startBrowser();
+		//driver = HelperFunctions.startBrowser();
+		System.setProperty("webdriver.gecko.driver",
+				"C:\\Users\\Bhajan\\Desktop\\SelJars\\geckodriver-v0.27.0-win64\\geckodriver.exe");
+		//Starts Browser
+		driver = new FirefoxDriver();
 	}
 
 	@AfterTest // post-condition
