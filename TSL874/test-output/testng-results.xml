@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46479" started-at="2020-11-04T12:57:16 IST" finished-at="2020-11-04T12:58:03 IST">
+  <suite name="Default suite" duration-ms="44751" started-at="2020-11-05T17:55:11 IST" finished-at="2020-11-05T17:55:55 IST">
     <groups>
     </groups>
-    <test name="ScreenShotTest" duration-ms="16435" started-at="2020-11-04T12:57:16 IST" finished-at="2020-11-04T12:57:33 IST">
-      <class name="day6.ColorTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day6.ColorTest@3b084709]" name="beforeTest" is-config="true" duration-ms="10725" started-at="2020-11-04T12:57:16 IST" finished-at="2020-11-04T12:57:27 IST">
+    <test name="Default test" duration-ms="44751" started-at="2020-11-05T17:55:11 IST" finished-at="2020-11-05T17:55:55 IST">
+      <class name="day7.ClearTrip">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day7.ClearTrip@4278a03f]" name="beforeTest" is-config="true" duration-ms="17949" started-at="2020-11-05T17:55:11 IST" finished-at="2020-11-05T17:55:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="colorCheck()[pri:0, instance:day6.ColorTest@3b084709]" name="colorCheck" duration-ms="3934" started-at="2020-11-04T12:57:27 IST" description="Checking color of find flight button" finished-at="2020-11-04T12:57:31 IST">
+        <test-method status="PASS" signature="flightSearch()[pri:0, instance:day7.ClearTrip@4278a03f]" name="flightSearch" duration-ms="18298" started-at="2020-11-05T17:55:29 IST" finished-at="2020-11-05T17:55:47 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- colorCheck -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:day6.ColorTest@3b084709]" name="afterTest" is-config="true" duration-ms="1539" started-at="2020-11-04T12:57:31 IST" finished-at="2020-11-04T12:57:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- day6.ColorTest -->
-    </test> <!-- ScreenShotTest -->
-    <test name="FirstTest" duration-ms="29953" started-at="2020-11-04T12:57:33 IST" finished-at="2020-11-04T12:58:03 IST">
-      <class name="day5.FirstNG">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day5.FirstNG@3b088d51]" name="beforeTest" is-config="true" duration-ms="17233" started-at="2020-11-04T12:57:33 IST" finished-at="2020-11-04T12:57:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="bingTest()[pri:1, instance:day5.FirstNG@3b088d51]" name="bingTest" duration-ms="1384" started-at="2020-11-04T12:57:50 IST" description="Verifying title of Bing.com" finished-at="2020-11-04T12:57:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bingTest -->
-        <test-method status="PASS" signature="appleSearchTest()[pri:2, instance:day5.FirstNG@3b088d51]" name="appleSearchTest" duration-ms="2748" started-at="2020-11-04T12:57:51 IST" description="Verifying search on Bing.com" depends-on-methods="day5.FirstNG.bingTest" finished-at="2020-11-04T12:57:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- appleSearchTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:day5.FirstNG@3b088d51]" name="afterTest" is-config="true" duration-ms="8555" started-at="2020-11-04T12:57:54 IST" finished-at="2020-11-04T12:58:03 IST">
+        </test-method> <!-- flightSearch -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:day7.ClearTrip@4278a03f]" name="afterTest" is-config="true" duration-ms="8259" started-at="2020-11-05T17:55:47 IST" finished-at="2020-11-05T17:55:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- day5.FirstNG -->
-    </test> <!-- FirstTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- day7.ClearTrip -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

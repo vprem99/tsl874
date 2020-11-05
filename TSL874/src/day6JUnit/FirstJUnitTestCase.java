@@ -24,6 +24,8 @@ public class FirstJUnitTestCase {
 	public void test() {
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		WebElement E = driver.findElement(By.id("remember"));
+		
+		
 		System.out.println(E.isDisplayed());
 		System.out.println(E.isEnabled());
 		System.out.println(E.isSelected());
@@ -34,5 +36,6 @@ public class FirstJUnitTestCase {
 		assertEquals(true, E.isSelected());
 		assertEquals("checkbox", E.getAttribute("type"));
 		assertTrue(E.isSelected());
+		
 	}
 }

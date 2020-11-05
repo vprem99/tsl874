@@ -33,5 +33,6 @@ public class YesBankRediff {
 			}
 		}
 		driver.switchTo().window(pid);// SWITCHING to Parent TAB
+		driver.quit();
 	}
 }
