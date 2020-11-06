@@ -10,23 +10,22 @@ import utils.Base;
 
 public class ClearTrip extends Base {
 	@Test
-	public void flightSearch() throws Exception{
-		//Implicit Wait which is Application thoughout your Programme 
-		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		WebDriverWait wt=new WebDriverWait(driver, 20);
-		
+	public void flightSearch() throws Exception {
+		// Implicit Wait which is Application thoughout your Programme
+		// driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		WebDriverWait wt = new WebDriverWait(driver, 20);
+
 		driver.get("https://www.cleartrip.com/");
-		
+
 		driver.findElement(By.id("FromTag")).sendKeys("Mumbai");
-	//	Thread.sleep(5000);
-		//driver.findElement(By.xpath("//ul[@id='ui-id-1']/li/a")).click();
-		
-		WebElement E=wt.until(ExpectedConditions.
-				visibilityOfElementLocated(By.xpath("//ul[@id='ui-id-1']/li/a")));
-	
-		//ExpectedConditions.url
+		// Thread.sleep(5000);
+		// driver.findElement(By.xpath("//ul[@id='ui-id-1']/li/a")).click();
+
+		WebElement E = wt.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul[@id='ui-id-1']/li/a")));
+
+		// ExpectedConditions.url
 		E.click();
-		
-		
+
+	
 	}
 }

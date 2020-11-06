@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44751" started-at="2020-11-05T17:55:11 IST" finished-at="2020-11-05T17:55:55 IST">
+  <suite name="Default suite" duration-ms="47521" started-at="2020-11-06T15:32:36 IST" finished-at="2020-11-06T15:33:24 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44751" started-at="2020-11-05T17:55:11 IST" finished-at="2020-11-05T17:55:55 IST">
-      <class name="day7.ClearTrip">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day7.ClearTrip@4278a03f]" name="beforeTest" is-config="true" duration-ms="17949" started-at="2020-11-05T17:55:11 IST" finished-at="2020-11-05T17:55:29 IST">
+    <test name="Default test" duration-ms="47521" started-at="2020-11-06T15:32:36 IST" finished-at="2020-11-06T15:33:24 IST">
+      <class name="day8.LinkImageTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day8.LinkImageTest@4278a03f]" name="beforeTest" is-config="true" duration-ms="22786" started-at="2020-11-06T15:32:36 IST" finished-at="2020-11-06T15:32:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="flightSearch()[pri:0, instance:day7.ClearTrip@4278a03f]" name="flightSearch" duration-ms="18298" started-at="2020-11-05T17:55:29 IST" finished-at="2020-11-05T17:55:47 IST">
+        <test-method status="PASS" signature="printingImg()[pri:0, instance:day8.LinkImageTest@4278a03f]" name="printingImg" duration-ms="11838" started-at="2020-11-06T15:32:59 IST" finished-at="2020-11-06T15:33:11 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- flightSearch -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:day7.ClearTrip@4278a03f]" name="afterTest" is-config="true" duration-ms="8259" started-at="2020-11-05T17:55:47 IST" finished-at="2020-11-05T17:55:55 IST">
+        </test-method> <!-- printingImg -->
+        <test-method status="PASS" signature="printingLinks()[pri:0, instance:day8.LinkImageTest@4278a03f]" name="printingLinks" duration-ms="5227" started-at="2020-11-06T15:33:11 IST" finished-at="2020-11-06T15:33:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printingLinks -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:day8.LinkImageTest@4278a03f]" name="afterTest" is-config="true" duration-ms="7185" started-at="2020-11-06T15:33:16 IST" finished-at="2020-11-06T15:33:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- day7.ClearTrip -->
+      </class> <!-- day8.LinkImageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
