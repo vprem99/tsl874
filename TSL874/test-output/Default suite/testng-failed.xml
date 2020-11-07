@@ -8,6 +8,7 @@
           <include name="dbConnect" invocation-numbers="1 2"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- day9.DataBase2 -->
     </classes>
