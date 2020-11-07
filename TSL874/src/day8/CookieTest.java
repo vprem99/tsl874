@@ -16,6 +16,7 @@ public class CookieTest extends Base {
 	@Test(priority = 1, description = "Test for Cookie on Google")
 	public void cookiePrint() {
 		driver.get("https://google.com/");
+		//driver.manage().get
 		Set<Cookie> ck = driver.manage().getCookies();
 		List<Cookie> allCK = new ArrayList<>(ck);
 
@@ -36,6 +37,7 @@ public class CookieTest extends Base {
 		driver.findElement(By.name("txtPassword")).sendKeys("admin123");
 		driver.findElement(By.name("Submit")).click();
 		driver.manage().deleteAllCookies();
+		//driver.manage().dele
 		driver.navigate().refresh();
 		Assert.assertTrue(driver.findElement(By.name("txtUsername")).isDisplayed());
 	}

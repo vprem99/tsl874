@@ -10,7 +10,7 @@ public class Base {
 
 	@BeforeTest
 	public void beforeTest() {
-		driver = HelperFunctions.startBrowser("firefox");
+		driver = HelperFunctions.startBrowser("chrome");
 		driver.manage().window().maximize();
 	}
 

@@ -64,9 +64,5 @@ public class LinkImageTest extends Base {
 			else
 				System.out.println(" is not working and Status Code & Message is -->> "+status +", "+hCon.getResponseMessage());			
 		}
-		/*	// take a variable of List/set/array type
-		for (WebElement E : ls) {
-			System.out.println(">>> ----" + E.getAttribute("href"));
-		}*/
 	}
 }
