@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47521" started-at="2020-11-06T15:32:36 IST" finished-at="2020-11-06T15:33:24 IST">
+  <suite name="Default suite" duration-ms="69109" started-at="2020-11-07T12:02:30 IST" finished-at="2020-11-07T12:03:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47521" started-at="2020-11-06T15:32:36 IST" finished-at="2020-11-06T15:33:24 IST">
-      <class name="day8.LinkImageTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day8.LinkImageTest@4278a03f]" name="beforeTest" is-config="true" duration-ms="22786" started-at="2020-11-06T15:32:36 IST" finished-at="2020-11-06T15:32:59 IST">
+    <test name="Default test" duration-ms="69109" started-at="2020-11-07T12:02:30 IST" finished-at="2020-11-07T12:03:39 IST">
+      <class name="day9.PomRunner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day9.PomRunner@4278a03f]" name="beforeTest" is-config="true" duration-ms="17261" started-at="2020-11-07T12:02:30 IST" finished-at="2020-11-07T12:02:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="printingImg()[pri:0, instance:day8.LinkImageTest@4278a03f]" name="printingImg" duration-ms="11838" started-at="2020-11-06T15:32:59 IST" finished-at="2020-11-06T15:33:11 IST">
+        <test-method status="PASS" signature="forgetAccTest()[pri:1, instance:day9.PomRunner@4278a03f]" name="forgetAccTest" duration-ms="23202" started-at="2020-11-07T12:02:47 IST" finished-at="2020-11-07T12:03:11 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printingImg -->
-        <test-method status="PASS" signature="printingLinks()[pri:0, instance:day8.LinkImageTest@4278a03f]" name="printingLinks" duration-ms="5227" started-at="2020-11-06T15:33:11 IST" finished-at="2020-11-06T15:33:16 IST">
+        </test-method> <!-- forgetAccTest -->
+        <test-method status="PASS" signature="f()[pri:2, instance:day9.PomRunner@4278a03f]" name="f" duration-ms="22002" started-at="2020-11-07T12:03:11 IST" finished-at="2020-11-07T12:03:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printingLinks -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:day8.LinkImageTest@4278a03f]" name="afterTest" is-config="true" duration-ms="7185" started-at="2020-11-06T15:33:16 IST" finished-at="2020-11-06T15:33:24 IST">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:day9.PomRunner@4278a03f]" name="afterTest" is-config="true" duration-ms="6217" started-at="2020-11-07T12:03:33 IST" finished-at="2020-11-07T12:03:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- day8.LinkImageTest -->
+      </class> <!-- day9.PomRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
