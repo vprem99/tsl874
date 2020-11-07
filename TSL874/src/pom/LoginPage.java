@@ -8,7 +8,7 @@ public class LoginPage {
 
 	public LoginPage(WebDriver driver) {
 		System.out.println(driver + " from Runner");
-		idriver = driver; // Passing from driver to idriver
+		idriver = driver; // Passing from driver to idriver ( Initializing)
 	}
 
 	By e_userName = By.name("txtUsername");
@@ -20,18 +20,22 @@ public class LoginPage {
 		// System.out.println(idriver);
 		idriver.findElement(e_userName).sendKeys(un);
 	}
+
 	public void setPassword(String pwd) {
 		idriver.findElement(e_password).sendKeys(pwd);
 	}
+
 	public void clickLogin() {
 		idriver.findElement(e_loginButton).click();
 	}
+
 	public void doLogin(String un, String pwd) {
 		// idriver.findElement(e_userName).sendKeys(un);
 		setUserName(un);
 		setPassword(pwd);
 		clickLogin();
 	}
+
 	public void clickForget() {
 		idriver.findElement(e_forget).click();
 	}
