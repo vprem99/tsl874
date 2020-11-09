@@ -1,0 +1,7 @@
+# '#' is used for Comments 
+# here Enerything is Written in Key & Value pair
+
+browserName=chrome-headLeSS
+url=http://google.com
+
+searchField=//input[@name='q']

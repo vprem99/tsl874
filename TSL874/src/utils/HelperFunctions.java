@@ -13,25 +13,32 @@ public class HelperFunctions {
 				"C:\\Users\\Bhajan\\Desktop\\SelJars\\chromedriver_win32\\chromedriver.exe");
 		// Starts Browser
 		WebDriver driver = new ChromeDriver();
-		//Parent p=new Child
+		// Parent p=new Child
 		return driver;
 	}
 
 	public static WebDriver startBrowser(String browserName) {
 		// Taking Parameter from user for Starting Specific Browser
-		if (browserName.equalsIgnoreCase("firefox")) {
+		browserName = browserName.toLowerCase(); // To make lower Case
+		if (browserName.contains("firefox")) {
 			System.setProperty("webdriver.gecko.driver",
 					"C:\\Users\\Bhajan\\Desktop\\SelJars\\geckodriver-v0.27.0-win64\\geckodriver.exe");
-			
-			FirefoxOptions op=new FirefoxOptions();
+
+			FirefoxOptions op = new FirefoxOptions();
 			op.addPreference("dom.webnotifications.enabled", false);
+			if (browserName.contains("headless")) {
+				op.addArguments("--headless");
+			}
 			WebDriver driver = new FirefoxDriver(op);
 			return driver;
-		} else if (browserName.equalsIgnoreCase("chrome")) {
+		} else if (browserName.contains("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\Bhajan\\Desktop\\SelJars\\chromedriver_win32\\chromedriver.exe");
-			ChromeOptions op=new ChromeOptions();
+			ChromeOptions op = new ChromeOptions();
 			op.addArguments("--disable-notifications");
+			if (browserName.contains("headless")) {
+				op.addArguments("--headless");
+			}
 			WebDriver driver = new ChromeDriver(op);
 			return driver;
 		} else
