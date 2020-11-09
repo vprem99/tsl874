@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day9.DataBase2">
+      <class name="day10.PropertyExample">
         <methods>
-          <include name="dbConnect" invocation-numbers="1 2"/>
+          <include name="f"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="afterMethod"/>
         </methods>
-      </class> <!-- day9.DataBase2 -->
+      </class> <!-- day10.PropertyExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
