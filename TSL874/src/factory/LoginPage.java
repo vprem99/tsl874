@@ -18,6 +18,7 @@ public class LoginPage {
 	WebElement txtUsername;                        
 	WebElement txtPassword; 
 	WebElement Submit; 
+	
 	@FindBy(linkText="Forgot your password?") WebElement e_forget;
 
 	public void setUserName(String un) {

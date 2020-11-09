@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56398" started-at="2020-11-07T17:33:55 IST" finished-at="2020-11-07T17:34:52 IST">
+  <suite name="Default suite" duration-ms="46697" started-at="2020-11-07T18:03:21 IST" finished-at="2020-11-07T18:04:07 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56398" started-at="2020-11-07T17:33:55 IST" finished-at="2020-11-07T17:34:52 IST">
+    <test name="Default test" duration-ms="46697" started-at="2020-11-07T18:03:21 IST" finished-at="2020-11-07T18:04:07 IST">
       <class name="day9.DataBase2">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day9.DataBase2@47542153]" name="beforeTest" is-config="true" duration-ms="14788" started-at="2020-11-07T17:33:55 IST" finished-at="2020-11-07T17:34:10 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day9.DataBase2@45b9a632]" name="beforeTest" is-config="true" duration-ms="11318" started-at="2020-11-07T18:03:21 IST" finished-at="2020-11-07T18:03:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@47542153]" name="dbConnect" duration-ms="23708" started-at="2020-11-07T17:34:15 IST" data-provider="dp" finished-at="2020-11-07T17:34:38 IST">
+        <test-method status="PASS" signature="dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@45b9a632]" name="dbConnect" duration-ms="21049" started-at="2020-11-07T18:03:35 IST" data-provider="dp" finished-at="2020-11-07T18:03:56 IST">
           <params>
             <param index="0">
               <value>
@@ -27,18 +27,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConnect -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:day9.DataBase2@47542153]" name="afterMethod" is-config="true" duration-ms="4" started-at="2020-11-07T17:34:38 IST" finished-at="2020-11-07T17:34:38 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:day9.DataBase2@45b9a632]" name="afterMethod" is-config="true" duration-ms="8" started-at="2020-11-07T18:03:56 IST" finished-at="2020-11-07T18:03:56 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dbConnect status=SUCCESS method=DataBase2.dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@47542153] output={null}]]]>
+                <![CDATA[[TestResult name=dbConnect status=SUCCESS method=DataBase2.dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@45b9a632] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@47542153]" name="dbConnect" duration-ms="3270" started-at="2020-11-07T17:34:38 IST" data-provider="dp" finished-at="2020-11-07T17:34:42 IST">
+        <test-method status="FAIL" signature="dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@45b9a632]" name="dbConnect" duration-ms="2629" started-at="2020-11-07T18:03:56 IST" data-provider="dp" finished-at="2020-11-07T18:03:59 IST">
           <params>
             <param index="0">
               <value>
@@ -98,18 +98,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConnect -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:day9.DataBase2@47542153]" name="afterMethod" is-config="true" duration-ms="1065" started-at="2020-11-07T17:34:42 IST" finished-at="2020-11-07T17:34:43 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:day9.DataBase2@45b9a632]" name="afterMethod" is-config="true" duration-ms="493" started-at="2020-11-07T18:03:59 IST" finished-at="2020-11-07T18:03:59 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dbConnect status=FAILURE method=DataBase2.dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@47542153] output={null}]]]>
+                <![CDATA[[TestResult name=dbConnect status=FAILURE method=DataBase2.dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@45b9a632] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@47542153]" name="dbConnect" duration-ms="3877" started-at="2020-11-07T17:34:43 IST" data-provider="dp" finished-at="2020-11-07T17:34:47 IST">
+        <test-method status="FAIL" signature="dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@45b9a632]" name="dbConnect" duration-ms="3961" started-at="2020-11-07T18:03:59 IST" data-provider="dp" finished-at="2020-11-07T18:04:03 IST">
           <params>
             <param index="0">
               <value>
@@ -169,18 +169,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConnect -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:day9.DataBase2@47542153]" name="afterMethod" is-config="true" duration-ms="587" started-at="2020-11-07T17:34:47 IST" finished-at="2020-11-07T17:34:47 IST">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:day9.DataBase2@45b9a632]" name="afterMethod" is-config="true" duration-ms="441" started-at="2020-11-07T18:04:03 IST" finished-at="2020-11-07T18:04:04 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dbConnect status=FAILURE method=DataBase2.dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@47542153] output={null}]]]>
+                <![CDATA[[TestResult name=dbConnect status=FAILURE method=DataBase2.dbConnect(java.lang.String, java.lang.String)[pri:0, instance:day9.DataBase2@45b9a632] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:day9.DataBase2@47542153]" name="afterTest" is-config="true" duration-ms="4499" started-at="2020-11-07T17:34:47 IST" finished-at="2020-11-07T17:34:52 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:day9.DataBase2@45b9a632]" name="afterTest" is-config="true" duration-ms="3822" started-at="2020-11-07T18:04:04 IST" finished-at="2020-11-07T18:04:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
