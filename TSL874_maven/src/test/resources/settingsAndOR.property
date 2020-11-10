@@ -1,0 +1,8 @@
+# '#' is used for Comments 
+# here Enerything is Written in Key & Value pair
+
+browserName=chrome
+url=http://google.com
+
+searchField=//input[@name='q']
+sheetName=Sheet6

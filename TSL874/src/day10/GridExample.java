@@ -38,7 +38,7 @@ public class GridExample {
 			dc = DesiredCapabilities.firefox();
 		}
 
-		dc.setPlatform(Platform.WINDOWS); // For telling type of platform node is using
+		dc.setPlatform(Platform.LINUX); // For telling type of platform node is using
 		// url of node cap
 		driver = new RemoteWebDriver(new URL(node), dc);
 	}

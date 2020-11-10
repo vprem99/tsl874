@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1402" started-at="2020-11-10T12:41:17Z" finished-at="2020-11-10T12:41:18Z">
+    <groups>
+      <group name="smoke">
+        <method signature="GroupingExample.test1()[pri:0, instance:com.lti.day11.GroupingExample@7ee8290b]" name="test1" class="com.lti.day11.GroupingExample"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="1402" started-at="2020-11-10T12:41:17Z" finished-at="2020-11-10T12:41:18Z">
+      <class name="com.lti.day11.GroupingExample">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.lti.day11.GroupingExample@7ee8290b]" name="test1" duration-ms="549" started-at="2020-11-10T12:41:17Z" finished-at="2020-11-10T12:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.lti.day11.GroupingExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
