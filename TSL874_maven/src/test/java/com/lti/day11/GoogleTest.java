@@ -11,15 +11,16 @@ import utils.Base;
 import utils.KeyWords;
 
 public class GoogleTest extends Base {
+	
 	@Test(description = "Verifiying Title of Bing Home Page")
 	public void bingTitleVerification() throws Exception{
 		ExtentReports ex = new ExtentReports(); // For Working with Extent Report
 		ex.attachReporter(new ExtentHtmlReporter("BingReport.html"));
 
 		ExtentTest tc1 = ex.createTest("BingTitle Verification");
-		tc1.info("Opening Url");
+		tc1.info("Opening Url");  // logger in report
 		driver.get("http://bing.com");
-		tc1.info("Fetching Current Title");
+		tc1.info("Fetching Current Title");  // logger in report
 		String actualTitle = driver.getTitle();
 		tc1.info("Comparing Title -- Perfotming Test");
 		try {
