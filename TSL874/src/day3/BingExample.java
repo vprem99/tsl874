@@ -4,7 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 import utils.HelperFunctions;
 
@@ -18,10 +20,24 @@ public class BingExample {
 		
 		WebElement search=driver.findElement(By.name("q"));
 
-		ac.keyDown(Keys.SHIFT)     // for pressing shift key by selenium
+		Action a=ac.keyDown(Keys.SHIFT)     // for pressing shift key by selenium
 		  .sendKeys(search,"lti")
 		  .doubleClick(search)      // for selecting
 		  .contextClick(search)    // for right click
-		  .perform();
+		  .build();
+		
+		a.perform();
+		
+		//driver.getTitle();
+		
+		Select s=new Select(search);
+		s.selectByIndex(5);
+		s.selectByValue("");
+		s.selectByVisibleText("");
+		s.deselectAll();
+		s.deselectByIndex(0);
+		s.deselectByValue("");
+		s.deselectByVisibleText("");
+		s.isMultiple();
 	}
 }

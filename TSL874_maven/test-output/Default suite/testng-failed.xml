@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.lti.day11.CSVExample">
+      <class name="in.lti.day12.NewTest">
         <methods>
-          <include name="f"/>
+          <include name="f2"/>
         </methods>
-      </class> <!-- com.lti.day11.CSVExample -->
+      </class> <!-- in.lti.day12.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

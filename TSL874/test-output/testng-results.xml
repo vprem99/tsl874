@@ -1,65 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="85542" started-at="2020-11-09T18:17:45 IST" finished-at="2020-11-09T18:19:11 IST">
+  <suite name="Default suite" duration-ms="493" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="36593" started-at="2020-11-09T18:17:45 IST" finished-at="2020-11-09T18:18:22 IST">
-      <class name="day10.GridExample">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:day10.GridExample@4e7dc304]" name="beforeTest" is-config="true" duration-ms="10943" started-at="2020-11-09T18:17:45 IST" finished-at="2020-11-09T18:17:56 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://192.168.0.105:34946/wd/hub]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="493" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+      <class name="day9.All_Annotation">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="beforeSuite" is-config="true" duration-ms="77" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="beforeTest" is-config="true" duration-ms="52" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:day10.GridExample@4e7dc304]" name="f" duration-ms="21782" started-at="2020-11-09T18:17:56 IST" finished-at="2020-11-09T18:18:18 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:day10.GridExample@4e7dc304]" name="afterTest" is-config="true" duration-ms="3670" started-at="2020-11-09T18:18:18 IST" finished-at="2020-11-09T18:18:22 IST">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="f1" duration-ms="108" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="f2" duration-ms="4" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="afterMethod" is-config="true" duration-ms="2" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f3()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="f3" duration-ms="4" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="afterTest" is-config="true" duration-ms="2" started-at="2020-11-11T15:02:42 IST" finished-at="2020-11-11T15:02:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- day10.GridExample -->
-    </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="48805" started-at="2020-11-09T18:18:22 IST" finished-at="2020-11-09T18:19:11 IST">
-      <class name="day10.GridExample">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:day10.GridExample@458c1321]" name="beforeTest" is-config="true" duration-ms="26823" started-at="2020-11-09T18:18:22 IST" finished-at="2020-11-09T18:18:49 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://192.168.0.105:34946/wd/hub]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:day9.All_Annotation@6ce139a4]" name="afterSuite" is-config="true" duration-ms="2" started-at="2020-11-11T15:02:43 IST" finished-at="2020-11-11T15:02:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:day10.GridExample@458c1321]" name="f" duration-ms="13879" started-at="2020-11-09T18:18:49 IST" finished-at="2020-11-09T18:19:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:day10.GridExample@458c1321]" name="afterTest" is-config="true" duration-ms="8089" started-at="2020-11-09T18:19:03 IST" finished-at="2020-11-09T18:19:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- day10.GridExample -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- day9.All_Annotation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
